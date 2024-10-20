@@ -56,7 +56,7 @@ namespace cfnat.win.gui
             FileVersionInfo myFileVersionInfo = FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly().Location);
             版本号 = "v" + myFileVersionInfo.FileVersion;
             标题 = "CFnat Windows GUI " + 版本号;
-            this.Text = 标题 + " TG:CMLiussss BY:CM喂饭 干货满满";
+            this.Text = 标题 + " TG:CMLiussss BY:CM喂饭 干货满满 HJ";
 
             // 为系统托盘图标添加上下文菜单
             ContextMenu contextMenu = new ContextMenu();
